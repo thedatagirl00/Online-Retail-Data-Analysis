@@ -1,4 +1,5 @@
 # Online-Retail-Data-Analysis
+# Overview
 This project involves an exploratory data analysis (EDA) of an online retail transactional dataset. The goal is to understand the dataset's structure, clean the data by handling missing values and duplicates, and derive initial insights into customer behavior, popular products, and sales patterns across different countries.
 # Data Source
 The dataset used is Online Retail.xlsx, which contains transactional data from a UK-based online retailer.
@@ -50,7 +51,7 @@ Country Analysis:
 Identified 37 unique countries in the dataset.
 Used Onlretail['Country'].value_counts() to find the frequency of transactions by country. The United Kingdom significantly dominates the sales volume.
 Explored transactions from 'Unspecified' country, noting that it had 241 records with 213 unique product descriptions.
-Next Steps (Potential Future Analysis)
+# Next Steps (Potential Future Analysis)
 Further investigate negative quantities and unit prices (likely returns or adjustments).
 Calculate sales revenue for each transaction (Quantity * UnitPrice).
 Perform RFM (Recency, Frequency, Monetary) analysis for customer segmentation.
